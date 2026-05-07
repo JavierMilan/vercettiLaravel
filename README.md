@@ -1,5 +1,7 @@
 Portal inmobiliario inspirado en el universo de GTA Vice City.
-Desarrollado como para una prueba técnica.
+Desarrollado para una prueba técnica.
+
+enlace[https://vercettilaravel-production.up.railway.app/login]
 
 Tecnologías: Laravel, Eloquent ORM, Blade, MySQL, DomPDF
 
