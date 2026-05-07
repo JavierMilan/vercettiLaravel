@@ -42,8 +42,3 @@ Route::middleware('auth.admin')->prefix('admin')->group(function () {
     Route::get('/pdf', [AdminController::class, 'exportarPDF'])->name('admin.pdf');
 });
 
-Route::get('/setup-admin', function () {
-    $hash = password_hash('vicecity1986', PASSWORD_BCRYPT);
-    \App\Models\Admin::where('id', 1)->update(['password_hash' => $hash]);
-    return 'Hash actualizado correctamente: ' . $hash;
-});
