@@ -1,4 +1,4 @@
-Portal inmobiliario inspirado en el universo de GTA Vice City.
+Dashboard para inmobiliaria inspirada en el universo de GTA Vice City.
 Desarrollado para una prueba técnica.
 
 Enlace [https://vercettilaravel-production.up.railway.app/login]
